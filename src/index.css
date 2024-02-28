@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+.main-container {
+  max-width: 1400px;
+  margin-inline: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.active {
+  color: lime;
+  font-weight: 750;
+  font-size: 23px;
+}
